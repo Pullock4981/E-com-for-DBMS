@@ -167,4 +167,22 @@ i{
         width: 100%;
         height: 100%;
     }
+
+    #new-arraival .one:nth-child(1) .details{
+        align-items: center;
+        text-align: center;
+    }
+
+    #new-arraival .one:nth-child(3) .details{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+/* featured css */
+
+.buy-now{
+    cursor: pointer;
 }
