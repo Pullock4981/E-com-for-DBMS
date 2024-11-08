@@ -186,3 +186,6 @@ i{
 .buy-now{
     cursor: pointer;
 }
+#featured{
+    margin-top: 100px;
+}
