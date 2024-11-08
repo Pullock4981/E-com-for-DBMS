@@ -1,5 +1,8 @@
 .navbar{
     font-size: 16px;
+    top: 0;
+    left: 0;
+    background: #fdfdfd;
 }
 
 .navbar-brand{
@@ -23,10 +26,65 @@ i:hover,
     color: coral;
 }
 
+#bar{
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    color: black;
+}
+
 /* icon style */
 i{
     font-size: 1.2rem;
     padding: 0 7px;
     cursor: pointer;
     font-weight: 500;
+}
+
+/* hero section style */
+
+#home{
+    background-image: url(assats/back.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-title-text{
+    font-weight: 800;
+}
+
+.hero-title-span{
+    color: coral;
+}
+
+.primary-btn{
+    padding: 5px 12px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* responcive */
+
+@media only screen and (max-width: 600px) {
+    #home{
+        width: 100%;
+        height: 75vh;
+        display: flex;
+    }
+    .hero-title-text{
+        font-weight: 800;
+        font-size: 25px;
+    }
 }
