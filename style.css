@@ -199,3 +199,23 @@ i{
 #featured{
     margin-top: 100px;
 }
+
+/* cart style */
+
+#cart table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#cart table thead{
+    font-weight: 700;
+}
+
+#cart table thead td{
+    background: coral;
+    color: #fdfdfd;
+    border: none;
+    text-align: center;
+    padding: 7px;
+}
